@@ -1,2 +1,2 @@
-# anomaly-detection-in-ship-engine
-Machine Learning project for detecting anomalies in ship engines using real-world sensor data (RPM, fuel pressure, coolant pressure, lubrication metrics) for predictive maintenance.
+# 🚢 Anomaly Detection in Ship Engine Data
+Employing statistical and ML techniques for predictive maintenance using multivariate sensor data.
