@@ -30,8 +30,8 @@ This project applies statistical and machine learning frameworks to detect anoma
 - One-Class SVM required careful hyperparameter tuning for reliable detection.
 - PCA visualizations provided limited interpretability for stakeholders.
 
-## ➡️ Transferable Applications
-The anomaly detection framework has potential applications in different fields:
+## ➡️ Business Applications
+The anomaly detection framework is industry-agnostic, with potential applications in different fields:
 - **Finance:** Fraud detection.
 - **Healthcare:** Early diagnosis.
 - **Cybersecurity:** Intrusion detection.
