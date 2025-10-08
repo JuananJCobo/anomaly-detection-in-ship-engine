@@ -10,10 +10,10 @@ This project applies statistical and machine learning frameworks to detect anoma
 - Build a pipeline of actionable insights for predictive maintenance.
 
 ## 🧠 Techniques Employed
-1. **Data preprocessing:** cleaning, outlier handling, and visualization.
+1. **Data preprocessing:** cleaning, outlier handling, and visualisation.
 2. **Statistical method:** Interquartile Range (IQR) for anomaly detection.
 3. **ML models:** One Class Support Vector Machine (SVM) and Isolation Forest.
-4. **Visualization:** Principal Component Analysis (PCA) for dimensionality reduction and 2D anomaly visualization.
+4. **Visualisation:** Principal Component Analysis (PCA) for dimensionality reduction and 2D anomaly visualisation.
 
 ## 🔧 Tools
 - `Python`
@@ -28,7 +28,7 @@ This project applies statistical and machine learning frameworks to detect anoma
 - IQR was effective for univariate detection but limited for multivariate anomalies. 
 - Isolation Forest offered stable results across runs.
 - One-Class SVM required careful hyperparameter tuning for reliable detection.
-- PCA visualizations provided limited interpretability for stakeholders.
+- PCA visualisations provided limited interpretability for stakeholders.
 
 ## ➡️ Business Applications
 The anomaly detection framework is industry-agnostic, with potential applications in different fields:
@@ -37,7 +37,7 @@ The anomaly detection framework is industry-agnostic, with potential application
 - **Cybersecurity:** Intrusion detection.
 - **Manufacturing:** Predictive maintenance.
 
-## 📄 License
+## 📄 Licence
 This project is licensed under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
