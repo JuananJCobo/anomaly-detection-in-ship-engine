@@ -1,42 +1,46 @@
 # 🚢 Anomaly Detection in Ship Engine Data
-Employing statistical and ML techniques for predictive maintenance using multivariate sensor data.
+Statistical and machine learning techniques for predictive maintenance using multivariate sensor data.
 
 ## 🌟Overview
-This project combines statistical and machine learning frameworks to detect anomalous activity in ship engines using real-world sensor data (RPM, fuel pressure, coolant pressure, lubrication metrics). Poorly maintained engines can cause safety risks, fuel inefficiencies, and costly downtime.
+This project applies statistical and machine learning frameworks to detect anomalous activity in ship engines using real-world sensor data (RPM, fuel pressure, coolant pressure, and lubrication metrics). Poorly maintained engines can cause safety risks, fuel inefficiencies, and costly downtime.
 
 ## 🎯Objectives
-- Preprocess the data and conduct feature engineering.
-- Develop and compare statistical and machine learning approaches for anomaly detection.
-- Create a pipeline of actionable insights for predictive maintenance.
+- Preprocess the data and perform feature engineering to identify meaningful patterns.
+- Develop and compare statistical and ML approaches for anomaly detection.
+- Build a pipeline of actionable insights for predictive maintenance.
 
 ## 🧠 Techniques Employed
-1. **Data proprocessing:** cleaning, outlier handling, and visualisation.
+1. **Data preprocessing:** cleaning, outlier handling, and visualization.
 2. **Statistical method:** Interquartile Range (IQR) for anomaly detection.
 3. **ML models:** One Class Support Vector Machine (SVM) and Isolation Forest.
-4. **Visualisation:** Principal Component Analysis (PCA) for dimensionality reduction and anomaly visualisation in a 2D projection.
+4. **Visualization:** Principal Component Analysis (PCA) for dimensionality reduction and 2D anomaly visualization.
 
 ## 🔧 Tools
 - `Python`
 - `pandas`
 - `numpy`
-- `seaborn`
 - `matplotlib`
+- `seaborn`
 - `scikit-learn`
 
 ## 📊 Results
-- By correctly adjusting their hyperparameters, all methods identified a suitable ratio of anomalies within data (between 1%-5%).
-- IQR presented some limitations, as it only detects anomalies in individual features, not global anomalies.
-- All Isolation Forest models showed consistent results. Hyperparameter tuning of One-Class SVM significantly affect which observtaions were labelled as anomalies.
-- PCA visualisations did not provide interpretable insights for stakehoders.
+- All methods identified a realistic anomaly ratio (1–5%) when properly tuned.
+- IQR was effective for univariate detection but limited for multivariate anomalies. 
+- Isolation Forest offered stable results across runs.
+- One-Class SVM required careful hyperparameter tuning for reliable detection.
+- PCA visualizations provided limited interpretability for stakeholders.
 
 ## ➡️ Transferable Applications
 The anomaly detection framework has potential applications in different fields:
 - **Finance:** Fraud detection.
 - **Healthcare:** Early diagnosis.
-- **Cibersecurity:** Intrusion detection.
+- **Cybersecurity:** Intrusion detection.
 - **Manufacturing:** Predictive maintenance.
 
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
+
 ## 👨‍💻 Author
-Juan Antonio Jiménez Cobo
-**LinkedIn:** www.linkedin.com/in/juan-antonio-jiménez-cobo-a16198344
-**Email:** juananjico@gmail.com
+**Juan Antonio Jiménez Cobo**  
+- [LinkedIn](https://www.linkedin.com/in/juan-antonio-jiménez-cobo)  
+- 📧 juananjico@gmail.com
