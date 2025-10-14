@@ -2,7 +2,18 @@
 Statistical and machine learning techniques for predictive maintenance using multivariate sensor data.
 
 ## Overview
-This project applies statistical and machine learning frameworks to detect anomalous activity in ship engines using real-world sensor data (RPM, fuel pressure, coolant pressure, and lubrication metrics). Poorly maintained engines can cause safety risks, fuel inefficiencies, and costly downtime.
+This project applies statistical and machine learning frameworks to detect anomalous activity in ship engines using real-world sensor data. Poorly maintained engines can cause safety risks, fuel inefficiencies, and costly downtime.
+
+## Data
+Devabrat, M., 2022. Predictive Maintenance on Ship's Main Engine using AI. Available at: https://dx.doi.org/10.21227/g3za-v415. The data set contains six important features continuously monitored to evaluate the engine's status as ‘good’ or ‘bad’. These features are:
+
+* **Engine rpm (revolutions per minute)**
+* **Lubrication oil pressure**
+* **Fuel pressure**
+* **Coolant pressure**
+* **Lubrication oil temperature**
+* **Coolant temperature**
+
 
 ## Objectives
 - Preprocess the data and perform feature engineering to identify meaningful patterns.
